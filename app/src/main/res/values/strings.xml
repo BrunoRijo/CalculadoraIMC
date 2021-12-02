@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">imcapp</string>
+    <string name="altura_hint">Altura (ex: 165cm)</string>
+    <string name="peso_hint">Peso (ex: 72.4kg)</string>
+</resources>
