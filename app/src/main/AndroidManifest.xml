@@ -9,12 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Imcapp">
-
+        <activity
+            android:name=".ResultadoIAC"
+            android:exported="true" />
         <activity
             android:name=".result_Activity"
             android:exported="true" />
-
-
         <activity
             android:name=".MainActivity"
             android:exported="true">
