@@ -2,4 +2,15 @@
     <string name="app_name">imcapp</string>
     <string name="altura_hint">Altura (ex: 165cm)</string>
     <string name="peso_hint">Peso (ex: 72.4kg)</string>
+    <string name="info_desnutricao">
+        Estar abaixo do peso é uma condição em que a pessoa pesa menos do que é considerado adequado para aquela altura
+    </string>
+    <string name="info_pesoIdeal">Estar dentro da faixa de peso normal é significa ter um peso considerado adequado para sua altura</string>
+    <string name="info_sobrePeso">
+        O sobrepeso é uma condição em que a pessoa pesa mais do que é considerado adequado para aquela altura, idade e sexo. O sedentarismo e os maus hábitos alimentares levam ao aumento dessa parcela de indivíduos com sobrepeso a cada ano.
+    </string>
+    <string name="info_obesidade">Somente o cálculo do IMC não é suficiente para diagnosticar obesidade. Na verdade, para além do IMC, são necessárias as seguintes medidas antropométricas: peso, estatura, espessura da dobra cutânea (bíceps, tríceps, subescapular e suprailíaca).
+
+Depois, é encontrado o percentual de gordura, que se for maior do que 25% a 30%, já é considerado um nível de obesidade. O índice de massa corporal tem que estar maior que 30kg/m².
+    </string>
 </resources>

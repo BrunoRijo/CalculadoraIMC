@@ -31,6 +31,7 @@
     <EditText
         android:id="@+id/alturaEDIT"
         style="@style/input_Style"
+        android:layout_marginHorizontal="24dp"
         android:hint="@string/altura_hint"
         app:layout_constraintEnd_toEndOf="@id/pesoEDIT"
         app:layout_constraintStart_toStartOf="@id/pesoEDIT"
@@ -48,6 +49,5 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/alturaEDIT" />
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>

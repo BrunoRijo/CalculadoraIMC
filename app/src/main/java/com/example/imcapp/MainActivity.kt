@@ -1,10 +1,8 @@
 package com.example.imcapp
 
+import android.content.Intent
 import android.os.Bundle
-import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.widget.doAfterTextChanged
-import androidx.core.widget.doOnTextChanged
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -24,7 +22,11 @@ class MainActivity : AppCompatActivity() {
         val altura =  altura.toFloatOrNull()
         if ( peso != null && altura != null){
             val imc =  peso / (altura*altura)
-            titleTXT?.text = "O seu IMC é "+imc
+            //titleTXT?.text = "O seu IMC é "+imc
+            val telaResultado = Intent(this, result_Activity::class.java)
+            telaResultado.putExtra("valorIMC", imc.toString())
+            telaResultado.putExtra("imcFloat", imc)
+            startActivity(telaResultado)
         }
     }
 }
